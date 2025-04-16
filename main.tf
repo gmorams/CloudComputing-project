@@ -19,7 +19,7 @@ resource "aws_iam_role" "lambda_exec_role" {
 
 resource "aws_amplify_app" "my_amplify_app" {
   name         = "StudyNotesProject"
-  repository   = "https://github.com/kwolny1/cloud_computing_project"  # URL del repositorio
+  repository   = "https://github.com/gmorams/CloudComputing-project"  # URL del repositorio
   platform     = "WEB"  # Esto es para una aplicación web (React)
   environment_variables = {
     "REACT_APP_ENV" = "production"
@@ -43,7 +43,7 @@ frontend:
       - node_modules/**/*
 BUILD_SPEC
 
-  oauth_token = "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"
+  oauth_token = ""
 }
 
 
