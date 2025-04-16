@@ -1,0 +1,23 @@
+[
+    {
+      "httpMethod": "GET",
+      "queryStringParameters": {
+        "note_id": "a2b5312f-06ba-4a2b-a7e8-c110dce4e9d3"
+      }
+    },
+    {
+      "httpMethod": "POST",
+      "body": "{\"text\": \"This is a test note about cloud infrastructure.\"}"
+    },
+    {
+      "httpMethod": "PUT",
+      "body": "{\"note_id\": \"a2b5312f-06ba-4a2b-a7e8-c110dce4e9d3\", \"text\": \"Updated note about AWS Lambda and Terraform.\"}"
+    },
+    {
+      "httpMethod": "DELETE",
+      "queryStringParameters": {
+        "note_id": "..."
+      }
+    }
+  ]
+  
